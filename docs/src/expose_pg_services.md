@@ -23,6 +23,8 @@ in the same network.
     secure your database before granting external access or that your
     Kubernetes cluster is only reachable from a private network.
 
+# Ingress TCP Routing
+
 For this example, you will use [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/),
 since it is maintained directly by the Kubernetes project and can be set up
 on every Kubernetes cluster. Many other controllers are available (see the
