@@ -23,7 +23,7 @@ in the same network.
     secure your database before granting external access or that your
     Kubernetes cluster is only reachable from a private network.
 
-# Ingress TCP Routing
+## Ingress TCP Routing
 
 For this example, you will use [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/),
 since it is maintained directly by the Kubernetes project and can be set up
@@ -102,7 +102,7 @@ Now you will be able to reach the PostgreSQL Cluster from outside your Kubernete
 !!! Important
     Make sure you configure `pg_hba` to allow connections from the Ingress.
 
-## Testing on Minikube
+### Testing on Minikube
 
 On Minikube you can setup the ingress controller running:
 
